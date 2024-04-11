@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div style="display: flex; flex-direction: column; width: fit-content; gap: 10px;">
+        <h3>Simple Crud with IndexedDB</h3>
+        <div>
+            <label for="btnGetData">Click to </label>
+            <button onclick="getData()" id="btnGetData">Get Data From data</button>
+        </div>
+
+        <div>
+            <label for="insertData">Click to </label>
+            <button onclick="insert()" id="insertData">Insert DB</button>
+            <label for="colorInput"></label>
+            <input type="text" id="colorInput" placeholder="Color">
+            <label for="makeInput"></label>
+            <input type="text" id="makeInput" placeholder="Make">
+        </div>
+        <div>
+            <label for="btnCloseDbConnection">Click to </label>
+            <button onclick="closeDbConnection()" id="btnCloseDbConnection">Close DB</button>
+        </div>
+
+    </div>
+</body>
+
+</html>
