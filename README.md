@@ -1,1 +1,1 @@
-Simple index db example with vanilla js
+Simple index db example with html & js
